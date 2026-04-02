@@ -1,6 +1,7 @@
 package com.authorbooks.author_books_app.model;
 
 import jakarta.persistence.*;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import java.util.List;
 
 @Entity
@@ -16,6 +17,7 @@ public class Author {
     private Integer birthYear;
     private String bio;
 
+    @JsonIgnore
     @OneToMany(mappedBy = "author", cascade = CascadeType.ALL)
     private List<Book> books;
 

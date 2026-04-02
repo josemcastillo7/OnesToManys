@@ -1,0 +1,25 @@
+{
+  "books" : [ {
+    "id" : 1,
+    "title" : "The Hobbit",
+    "genre" : "Fantasy",
+    "publishedYear" : 1937,
+    "pages" : 310,
+    "isbn" : "978-0547928227",
+    "coverImageUrl" : null,
+    "author" : {
+      "id" : 1,
+      "name" : "J.R.R. Tolkien",
+      "nationality" : "British",
+      "birthYear" : 1892,
+      "bio" : "Creator of Middle Earth."
+    }
+  } ],
+  "authors" : [ {
+    "id" : 1,
+    "name" : "J.R.R. Tolkien",
+    "nationality" : "British",
+    "birthYear" : 1892,
+    "bio" : "Creator of Middle Earth."
+  } ]
+}
