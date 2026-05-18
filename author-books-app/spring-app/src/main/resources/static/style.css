@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+h1 {
+    
+    color: #FFD700;
+    text-align: center;
+}
+
+h2 {
+    color: #FFD700;
+}
+
+#add-author-form {
+    background: #2a2a2a;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    background: #3a3a3a;
+    border: 1px solid #FFD700;
+    border-radius: 4px;
+    color: white;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #FFD700;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #FFC200;
+}
+
+.author-card {
+    background: #2a2a2a;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    border-left: 4px solid #FFD700;
+}
+
+.author-card h3 {
+    margin: 0 0 10px 0;
+    color: #FFD700;
+}
+
+.delete-btn {
+    background-color: #cc0000;
+    color: white;
+    margin-top: 10px;
+}
+
+.book-card {
+    background: #3a3a3a;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 8px;
+}
+
+.edit-btn {
+    background-color: #FFA500;
+    color: black;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.add-book-form {
+    background: #2a2a2a;
+    padding: 10px;
+    border-radius: 4px;
+    margin: 10px 0;
+}
+
+.add-book-form input {
+    margin: 4px 0;
+}

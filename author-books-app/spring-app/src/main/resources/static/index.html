@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Author Books App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Author Books App</h1>
+
+    <div id="add-author-form">
+        <h2>Add New Author</h2>
+        <input type="text" id="name" placeholder="Name">
+        <input type="text" id="nationality" placeholder="Nationality">
+        <input type="number" id="birthYear" placeholder="Birth Year">
+        <input type="text" id="bio" placeholder="Bio">
+        <button onclick="addAuthor()">Add Author</button>
+    </div>
+
+    <h2>Authors</h2>
+    <div id="authors-list"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>
